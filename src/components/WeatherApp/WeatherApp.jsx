@@ -53,7 +53,7 @@ export default function WeatherApp() {
             <div className='top-bar'>
                 <input type="text" className="cityInput" onChange={search} placeholder='Search' />
                 <div className="search-icon">
-                    <img src={search_icon} alt="" />
+                    <img src={search_icon} alt="search icon" />
                 </div>
             </div>
             <div className="weather-image">
